@@ -220,7 +220,34 @@ img {
   border-radius: 0.6rem;
 }
 
-@media screen and (max-width: 900px) {
+.facts > h1 {
+  font-size: 2.4rem;
+}
+
+.facts > p {
+  margin: 1rem 0 3rem 0;
+}
+
+.fact-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.fact-card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  border: 1px solid var(--primary-accent);
+  border-radius: 0.6rem;
+}
+
+@media screen and (max-width: 1024px) {
   #banner {
     padding: 1rem;
   }
@@ -244,7 +271,10 @@ img {
 
   .team {
     flex-direction: column-reverse;
-    align-items: start;
+  }
+
+  .team-content {
+    margin-right: auto;
   }
 
   .features {
@@ -255,5 +285,13 @@ img {
   .experience-card {
     left: 50%;
     top: -25px;
+  }
+
+  .fact-list {
+    gap: 1rem;
+  }
+
+  .fact-card {
+    min-width: 40%;
   }
 }
