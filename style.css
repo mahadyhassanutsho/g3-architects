@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --font-work: "Work Sans", sans-serif;
+
+  /* Regular Weights */
+  --font-thin: 100;
+  --font-extralight: 200;
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-black: 900;
+
+  /* Italic Weights (for reference, usage is the same) */
+  --font-thin-italic: italic 100;
+  --font-extralight-italic: italic 200;
+  --font-light-italic: italic 300;
+  --font-normal-italic: italic 400;
+  --font-medium-italic: italic 500;
+  --font-semibold-italic: italic 600;
+  --font-bold-italic: italic 700;
+  --font-extrabold-italic: italic 800;
+  --font-black-italic: italic 900;
+
+  /* Colors */
+  --background-color: #ff900e10;
+  --primary-accent: #ff900e;
+  --white: #fff;
+  --black-1: #000;
+  --black-2: #424242;
+  --black-3: #727272;
+}
