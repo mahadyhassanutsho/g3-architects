@@ -247,6 +247,33 @@ img {
   border-radius: 0.6rem;
 }
 
+.sponsors {
+  display: grid;
+  gap: 1rem;
+  text-align: center;
+}
+
+.sponsors > h1 {
+  font-size: 2.4rem;
+}
+
+.sponsor-list {
+  list-style: none;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.sponsor-item {
+  min-height: 2rem;
+}
+
+.sponsor-item > img {
+  filter: grayscale(100%);
+}
+
 @media screen and (max-width: 1024px) {
   #banner {
     padding: 1rem;
@@ -292,6 +319,14 @@ img {
   }
 
   .fact-card {
+    min-width: 40%;
+  }
+
+  .sponsors > p > br {
+    display: none;
+  }
+
+  .sponsor-item {
     min-width: 40%;
   }
 }
